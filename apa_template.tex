@@ -1,0 +1,31 @@
+\documentclass[man]{apa6}
+
+\usepackage[american]{babel}
+\usepackage[charter]{mathdesign}
+\usepackage{csquotes}
+\usepackage[style=apa,sortcites=true,sorting=nyt]{biblatex}
+\DeclareLanguageMapping{american}{american-apa}
+\addbibresource{bibliography.bib}
+
+\title{Title of your paper}
+\shorttitle{Short title or running header}
+\author{Your name}
+\affiliation{Course No - Course Name \\ School Name \\ Faculty or Instructor Name}
+\note{\today}
+
+\begin{document}
+\maketitle
+
+Introduction goes here...
+
+\section{Example}
+
+\subsection{Example Subsection}
+
+Use section and subsection commands to organize your document \parencite{clarke_system_2011}
+
+\printbibliography
+
+\end{document}
+
+
