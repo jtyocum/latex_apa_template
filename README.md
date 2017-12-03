@@ -13,23 +13,31 @@ This guide is focused on using the APA format for homework assignments.
 
 TexWorks must be manually configured to use latexmk.
 
-Edit > Preferences > Typesetting
+1. Edit > Preferences > Typesetting
+2. Click on the + icon
 
-Click on + icon
+    Name:
+        latexmk
 
-Name:
+    Program:
+        latexmk.exe
 
-    latexmk
+    Arguments:
+        -e
+        $pdflatex=q/pdflatex $synctexoption %O %S/
+        -pdf
+        $fullname
 
-Program:
+    View PDF after running:
+        (checked)
 
-    latexmk.exe
+## Reference Management
 
-Arguments:
+Use a reference manager which supports exporting to the BibTex or BibLaTex
+formats. Several options are available including Zotero and Mendeley.
 
-    -e
-    $pdflatex=q/pdflatex $synctexoption %O %S/
-    -pdf
-    $fullname
+### Zotero
 
-View PDF after running (checked)
+One note about using Zotero. Exporting refernces using BibTex appears to
+produce better results compared to BibLaTex, atleast when dealing with
+journals that used named issues.
