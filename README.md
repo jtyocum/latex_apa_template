@@ -16,20 +16,20 @@ TexWorks must be manually configured to use latexmk.
 1. Edit > Preferences > Typesetting
 2. Click on the + icon
 
-    Name:
-        latexmk
+        Name:
+            latexmk
 
-    Program:
-        latexmk.exe
+        Program:
+            latexmk.exe
 
-    Arguments:
-        -e
-        $pdflatex=q/pdflatex $synctexoption %O %S/
-        -pdf
-        $fullname
+        Arguments:
+            -e
+            $pdflatex=q/pdflatex $synctexoption %O %S/
+            -pdf
+            $fullname
 
-    View PDF after running:
-        (checked)
+        View PDF after running:
+            (checked)
 
 ## Reference Management
 
