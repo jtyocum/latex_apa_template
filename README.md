@@ -38,6 +38,8 @@ formats. Several options are available including Zotero and Mendeley.
 
 ### Zotero
 
-One note about using Zotero. Exporting refernces using BibTex appears to
-produce better results compared to BibLaTex, atleast when dealing with
-journals that used named issues.
+When exporting, use the following options for best results:
+
+* Format: BibTex
+* Character Encoding: Western
+
